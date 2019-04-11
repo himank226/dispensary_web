@@ -1,0 +1,204 @@
+body,*,p,h2,h3,h1
+{
+    margin:0 auto;
+    padding:0;
+    position:relative;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+body
+{
+    background-color:silver;
+}
+main
+{
+    width:1000px;
+    display:table;
+    margin-bottom:5px;
+    border: 1px dotted yellow;
+    background-color: white;
+}
+header
+{
+    background:#fff;
+    height: 130px;
+}
+.logo
+{
+    padding:0px 0 5px 2px;
+}
+.header-right-side
+{
+    float:right;
+    padding:20px 0 0;
+}
+
+.tel{
+    padding-right:15px;
+    float:right;
+    font-size:16px;
+    font-weight:bold;
+}
+.header-nav{
+    margin-top:65px;
+}
+.header-nav li{
+    font-weight: bold;
+    list-style-type:none;
+    display:table;
+    float:left;
+    color:#FFF;
+}
+.header-nav a
+{
+    text-decoration:none;
+    padding: 10px 15px 20px !important;
+    line-height: 2.6;
+    color:#666666;
+}
+.header-nav a:hover,a.active
+{
+    border-bottom:1.5px solid orange;
+    padding:0;
+}
+a
+{
+    text-decoration:none;
+}
+
+#slider-div
+{
+    width:620px;
+    height:300px;
+    float:left;
+    padding: 8px;
+    /*border: 1px dotted;*/
+    background-color: lightyellow;
+}
+#noticeboard-div
+{
+    width:300px;
+    height:300px;
+    float:right;
+    margin-right: 10px;
+    padding:8px;
+    border:none;
+    background-color:white;
+   
+}
+#noticeboard-div li
+{
+    padding: 20px;
+	font-weight:bold;
+	
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Important-div
+{
+    width:750px;
+    height:20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: dodgerblue;
+}
+#content-div
+{
+    width:760px;
+    height:auto;
+    float:left;
+    margin-top: 4px;
+    font-size: large;
+}
+object
+{
+    width: 100%;
+    height:600px;
+}
+#latest
+{
+    width:245px;
+    height:auto;
+    float:left;
+    border-right: 1px dotted;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.latest-content
+{
+    background-color:transparent;
+}
+.academic-content li
+{
+    padding: 10px;
+    list-style: none;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#event-div
+{
+    width:245px;
+    height:auto;
+    float:left;
+    border-right: 1px dotted;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.event-content
+{
+    background-color:transparent;
+}
+.student-content li
+{
+    padding: 10px;
+    list-style: none;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#services-div
+{
+    width:245px;
+    height:auto;
+    float:left;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.service-content
+{
+    background-color:transparent;
+}
+.service-content li
+{
+    padding: 10px;
+    list-style: none;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#doctor-msg-div
+{
+    width:225px;
+    height:160px;
+    float:right;
+    margin-top: 1px;
+    text-align: justify;
+}
+
+.footer
+{
+    height: 70px;
+    position: relative;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+.footer a
+{
+    font-size: 13px;
+    color: red;
+    padding: 12px;
+}
+
+
+
+
